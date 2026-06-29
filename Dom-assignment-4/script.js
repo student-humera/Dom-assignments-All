@@ -59,7 +59,7 @@ saveBtn.addEventListener("click", function () {
 
 //task-4
 const delegationList = document.getElementById("delegation-list");
-//add click listener to parent instead of adding it to each child
+//add click listener
 delegationList.addEventListener("click", function (e) {
     if (e.target.tagName === "LI") {
         e.target.classList.toggle("completed");
